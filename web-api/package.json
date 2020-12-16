@@ -1,0 +1,26 @@
+{
+  "name": "api-seed",
+  "version": "0.0.0",
+  "description": "API SEED",
+  "author": "yo boy ryan",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/server",
+    "start:watch": "nodemon ./bin/server"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "dotenv": "^6.0.0",
+    "express": "~4.16.0",
+    "faker": "^4.1.0",
+    "httpntlm": "^1.7.6",
+    "moment": "^2.22.2",
+    "mongodb": "^3.1.1",
+    "morgan": "~1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5",
+    "npm-run-all": "^4.1.3"
+  }
+}

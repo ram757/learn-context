@@ -1,0 +1,28 @@
+.image {
+  width: 400px;
+  height: 350px;
+  padding-top: 20px;
+}
+
+.DAY-image {
+  background-color: #99ffff;
+}
+
+.ball {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 20px auto 0;
+}
+
+.DAY-ball {
+  background-color: yellow;
+}
+
+.NIGHT-image {
+  background-color: #1a1a1a;
+}
+
+.NIGHT-ball {
+  background-color: lightgray;
+}
